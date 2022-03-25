@@ -1,8 +1,8 @@
-import {SampleCalculator} from "./sample.calculator";
+import { SampleCalculator } from './sample.calculator';
 
 describe('Calculator test', () => {
-    it('add test', () => {
-        const result = SampleCalculator.add(1,1);
-        expect(result).toEqual(2);
-    });
+  it('add test', () => {
+    const result = SampleCalculator.add(1, 1);
+    expect(result).toEqual(2);
+  });
 });
