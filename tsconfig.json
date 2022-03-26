@@ -7,5 +7,6 @@
     "strict": true,
     "esModuleInterop": true,
     "module": "CommonJS"
-  }
+  },
+  "exclude": ["node_modules", "build", "./**/*.spec.ts"]
 }
